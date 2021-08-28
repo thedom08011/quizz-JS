@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Quizz culture générale</h1>
+    <div class="container-global">
+        <form class="form-quizz">
+            <div class="question-block">
+                <h4>Quel personnage est censé être mort dans la chanson du barde joué par Didier Bénureau ?</h4>
+                <div>
+                    <input type="radio" id="Loth" name="q1" value="a" checked>
+                    <label for="Loth">Le roi Loth</label>
+                </div>
+                <div>
+                    <input type="radio" id="Galessin" name="q1" value="b">
+                    <label for="Galessin">Le seigneur Galessin</label>
+                </div>
+                <div>
+                    <input type="radio" id="Roparhz" name="q1" value="c">
+                    <label for="Roparhz">Roparhz</label>
+                </div>
+                <div>
+                    <input type="radio" id="Pancreas" name="q1" value="d">
+                    <label for="Pancreas">Le chevalier au Pancreas</label>
+                </div>
+            </div>
+
+
+            <div class="question-block">
+                <h4>Pourquoi Arthur refuse-t-il de commander de l'alcool à la taverne ?</h4>
+                <div>
+                    <input type="radio" id="immonde" name="q2" value="a" checked>
+                    <label for="immonde">Le pinard est immonde</label>
+                </div>
+                <div>
+                    <input type="radio" id="froid" name="q2" value="b">
+                    <label for="froid">Il fait trop froid</label>
+                </div>
+                <div>
+                    <input type="radio" id="noble" name="q2" value="c">
+                    <label for="noble">Ça ne fait pas noble</label>
+                </div>
+                <div>
+                    <input type="radio" id="grouillot" name="q2" value="d">
+                    <label for="grouillot">Les grouillots le gênent</label>
+                </div>
+            </div>
+
+
+            <div class="question-block">
+                <h4>Quel état fédéré du royaume de Logres a pour emblème deux vipères rouges ?</h4>
+                <div>
+                    <input type="radio" id="Caledonie" name="q3" value="a" checked>
+                    <label for="Caledonie">La Calédonie</label>
+                </div>
+                <div>
+                    <input type="radio" id="Carmélide" name="q3" value="b">
+                    <label for="Carmélide">La Carmélide</label>
+                </div>
+                <div>
+                    <input type="radio" id="Orcanie" name="q3" value="c">
+                    <label for="Orcanie">L'Orcanie</label>
+                </div>
+                <div>
+                    <input type="radio" id="Galles" name="q3" value="d">
+                    <label for="Galles">Le Pays de Galles</label>
+                </div>
+            </div>
+
+
+            <div class="question-block">
+                <h4>Que fait Guethenoc pour "rattraper le coup" dans son relais gastronomique afin de compenser l'absence de plat national ?</h4>
+                <div>
+                    <input type="radio" id="femmes" name="q4" value="a" checked>
+                    <label for="femmes">Il y met des bonnes femmes</label>
+                </div>
+                <div>
+                    <input type="radio" id="étranger" name="q4" value="b">
+                    <label for="étranger">Il vend du vin étranger</label>
+                </div>
+                <div>
+                    <input type="radio" id="Bretagne" name="q4" value="c">
+                    <label for="Bretagne">Il crame la moitié de la Bretagne</label>
+                </div>
+                <div>
+                    <input type="radio" id="bêtes" name="q4" value="d">
+                    <label for="bêtes">Il empoisonne les bêtes</label>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <h4>Quels sont les deux ennemis de Perceval dans la vie ?</h4>
+                <div>
+                    <input type="radio" id="courges" name="q5" value="a" checked>
+                    <label for="courges">Les livres et les courges</label>
+                </div>
+                <div>
+                    <input type="radio" id="coiffeurs" name="q5" value="b">
+                    <label for="coiffeurs">Les coiffeurs et les femmes</label>
+                </div>
+                <div>
+                    <input type="radio" id="vocabulaire" name="q5" value="c">
+                    <label for="vocabulaire">Le vocabulaire et les épinards</label>
+                </div>
+                <div>
+                    <input type="radio" id="cardinaux" name="q5" value="d">
+                    <label for="cardinaux">Les points cardinaux et la géométrie</label>
+                </div>
+            </div>
+
+            <button type="submit">Validez vos choix</button>
+            <div class="resultats">
+                <h2>cliquez sur valider pour voir le résultats</h2>
+                <p class="aide"></p>
+                <p class="note"></p>
+            </div>
+
+        </form>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
